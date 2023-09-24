@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgba(59, 159, 159, 0.7);
+}
+
+.container .heading {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .heading img {
+  width: 70px;
+  height: 70px;
+  margin-right: 2vw;
+}
+
+/* navigation */
+
+.navigation {
+  width: 85vw;
+  height: 75vh;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 2px solid rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation .td {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* boxes */
+
+.navigation .box {
+  width: 23vw;
+  height: 30vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(59, 159, 159, 0.7);
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  font-size: 30px;
+  flex-direction: column;
+  transition: all 0.2s ease;
+}
+
+.navigation .box:hover {
+  cursor: pointer;
+  .img {
+    transform: scale(0.95);
+  }
+  font-size: 25px;
+  transition: all 0.2s ease;
+}
+
+.up-btn{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(59, 159, 159, 0.7);
+  border-radius: 50%;
+  margin-left: 90vw;
+  margin-top: 70vh;
+  opacity: 1;
+  position: fixed;
+  transition: all 0.2s ease-in;
+}
+
+.up-btn img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-bottom: 30vh;
+}
+
+.up-btn img:hover{
+  cursor: pointer;
+  transform: scale(0.8);
+  transition: all 0.2s ease-in;
+}
+
+.physician {
+  margin: 4vh 2.5vw 3vh 2.5vw;
+}
+
+.cardiologist {
+  margin: 4vh 2.5vw 3vh 2.5vw;
+}
+
+.orthopedic {
+  margin: 4vh 2.5vw 3vh 2.5vw;
+}
+
+.dentist {
+  margin: 3vh 2.5vw 3vh 2.5vw;
+}
+
+.dietitian {
+  margin: 3vh 2.5vw 3vh 2.5vw;
+}
+
+.back {
+  margin: 3vh 2.5vw 3vh 2.5vw;
+}
+
+/* images */
+
+.img {
+  width: 22vw;
+  height: 20vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.img img {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* physician */
+
+.physician-details {
+  width: 100vw;
+  height: auto;
+  margin-top: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.physician-details .heading{
+    width: 100vw;
+    height: 20vh;
+    margin-bottom: 5vh;
+}
+
+/* cardiologist */
+
+.cardiologist-details {
+  width: 100vw;
+  height: auto;
+  margin-top: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.cardiologist-details .heading{
+    width: 100vw;
+    height: 20vh;
+    margin-bottom: 5vh;
+}
+
+/* orthopedic */
+
+.orthopedic-details {
+  width: 100vw;
+  height: auto;
+  margin-top: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.orthopedic-details .heading{
+    width: 100vw;
+    height: 20vh;
+    margin-bottom: 5vh;
+}
+
+/* dentist */
+
+.dentist-details {
+  width: 100vw;
+  height: auto;
+  margin-top: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.dentist-details .heading{
+    width: 100vw;
+    height: 20vh;
+    margin-bottom: 5vh;
+}
+
+/* dietitian */
+
+.dietitian-details {
+  width: 100vw;
+  height: auto;
+  margin-top: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.dietitian-details .heading{
+    width: 100vw;
+    height: 20vh;
+    margin-bottom: 5vh;
+}
+
+.photo {
+  width: 40vw;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-left: 5vw;
+  margin-bottom: 10vh;
+}
+
+.photo img{
+  width: 40vw;
+  display: flex;
+  flex-wrap: wrap;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.details{
+    display: flex;
+    font-size: 40px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 5vw;
+    margin-bottom: 10vh;
+}

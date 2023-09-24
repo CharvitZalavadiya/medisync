@@ -1,0 +1,88 @@
+@media screen and (min-width: 1001px) and (max-width: 1300px) {
+  .login-block {
+    width: 50vw;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+  .container .team-name {
+    width: 60vw;
+    font-size: 42px;
+    margin-left: 0px;
+    padding-left: 5vw;
+  }
+
+  .login-signup-button {
+    width: 40vw;
+  }
+
+  .login {
+    width: 17vw;
+  }
+
+  .login button{
+    width: 17vw;
+  }
+
+  .signup {
+    width: 17vw;
+  }
+  
+  .signup button {
+    width: 17vw;
+  }
+
+  .login-block {
+    width: 70vw;
+  }
+
+  .login-block .inputs {
+    width: 50vw;
+  }
+
+  input[type="text"] {
+    width: 40vw;
+  }
+
+  input[type="email"] {
+    width: 40vw;
+  }
+
+  input[type="password"] {
+    width: 40vw;
+  }
+
+  input[type="submit"] {
+    width: 20vw;
+  }
+
+  .other {
+    width: 70vw;
+  }
+
+  .other .btn button {
+    width: 18vw;
+    display: flex;
+    justify-content: center;
+  }
+
+  .other .login-btn {
+    width: 18vw;
+  }
+
+  .navigation {
+    width: 90vw;
+  }
+
+  .navigation .box {
+    width: 24vw;
+    font-size: 25px;
+  }
+
+  .physician-details .photo {
+    width: 70vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+  }
+}

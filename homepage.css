@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(59, 159, 159, 0.7);
+}
+
+.container .logo {
+  width: 100px;
+  height: 15vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.container .team-name {
+  width: 90vw;
+  height: 15vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* navigation */
+
+.navigation {
+  width: 85vw;
+  height: 75vh;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 2px solid rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation .td {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* boxes */
+
+.navigation .box {
+  width: 23vw;
+  height: 30vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(59, 159, 159, 0.7);
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  font-size: 30px;
+  flex-direction: column;
+  transition: all 0.2s ease;
+}
+
+.navigation .td {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.navigation .box:hover {
+  cursor: pointer;
+  .img {
+    transform: scale(0.95);
+  }
+  font-size: 25px;
+  transition: all 0.2s ease;
+}
+
+.lab-test {
+  margin: 4vh 2.5vw 3vh 2.5vw;
+}
+
+.e-prescription {
+  margin: 4vh 2.5vw 3vh 2.5vw;
+}
+
+.find-doctor {
+  margin: 4vh 2.5vw 3vh 2.5vw;
+}
+
+.medical-history {
+  margin: 3vh 2.5vw 3vh 2.5vw;
+}
+
+.order-details {
+  margin: 3vh 2.5vw 3vh 2.5vw;
+}
+
+.exit {
+  margin: 3vh 2.5vw 3vh 2.5vw;
+}
+
+/* images */
+
+.img {
+  width: 22vw;
+  height: 20vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.img img {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  background: linear-gradient(45deg, rgb(59, 159, 159), white);
+}
+
+.container .logo {
+  width: 100px;
+  height: 25vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.container .team-name {
+  width: 60vw;
+  height: 25vh;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  /* margin-left: 10vw; */
+}
+
+/* login */
+
+.login-signup-button {
+  width: 30vw;
+  height: 25vh;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.login-btn {
+  text-decoration: none;
+  color: rgb(59, 159, 159);
+  width: 10vw;
+  height: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.login-btn:hover {
+  color: white;
+}
+
+.login button {
+  width: 10vw;
+  height: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(59, 159, 159);
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  transition: all 0.2s ease-out;
+}
+
+.login button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(59, 159, 159);
+  border: 2px solid white;
+  transform: scale(1.05);
+  transition: all 0.2s ease-out;
+}
+
+/* sign up */
+
+.signup-btn {
+  text-decoration: none;
+  color: white;
+  width: 10vw;
+  height: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.signup-btn:hover {
+  color: rgb(59, 159, 159);
+}
+
+.signup button {
+  width: 10vw;
+  height: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: rgb(59, 159, 159);
+  border: 2px solid white;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  transition: all 0.2s ease-out;
+}
+
+.signup button:hover {
+  cursor: pointer;
+  color: rgb(59, 159, 159);
+  background-color: white;
+  border: 2px solid rgb(59, 159, 159);
+  transform: scale(1.05);
+  transition: all 0.2s ease-out;
+}
+
+.container .about-us{
+  width: 65vw;
+  height: 75vh;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+  margin-left: 3vw;
+}
+
+.container .about-us b{
+  font-size: 25px;
+}
+
+.container .mobile-app-photo{
+  width: 30vw;
+  height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  justify-content: center;
+}
+
+.container .mobile-app-photo img{
+  width: 30vw;
+  height: 60vh;
+  object-fit: contain;
+}
